@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "normalizing-flows"
+version = "0.1.0"
+description = "Code for experiments with Normalizing Flows"
+authors = ["Sergio Alvarez <sergioalvarezbalanya1995@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.1.0"
+torch = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
